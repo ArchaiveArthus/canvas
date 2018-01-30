@@ -1,0 +1,8 @@
+http://www.tannerhelland.com/3643/grayscale-image-algorithm-vb6/
+https://freesound.org/people/Razzvio/sounds/79572/
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Manipulating_video_using_canvas
+https://archive.org/details/What_Happened_1901
+https://archive.org/details/EdisonMotionPicturesCollectionPartOne1891-1898
+to create a night vision
+
+https://github.com/PintaProject/NightVisionEffect/blob/master/NightVisionAddin/NightVisionEffect.cs#L74

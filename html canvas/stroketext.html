@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drawing Text</title>
+</head>
+<body>
+	<canvas id="canvasId" width="400" height="400"></canvas>
+	<script type="text/javascript">
+		var c=document.querySelector('#canvasId');
+		var ctx=c.getContext("2d");
+		// ctx.fillStyle="blue";
+		// ctx.fill();
+		// ctx.fillText("hello i m sajan",80,10);
+		// //similary
+		// ctx.strokeStyle="red";
+		// ctx.textAlign="center";
+		// ctx.shadowColor="black";
+		// ctx.fontSize="52px";
+		// ctx.strokeText("i m 22 years old",100,40);
+
+
+		ctx.font="36pt Impact";
+		ctx.textAlign="center";
+		ctx.fillStyle="white";
+		ctx.fillText("canvas meme!",c.width/2,40);
+		ctx.strokeStyle="black";
+		ctx.lineWidth=3;
+		ctx.strokeText("canvas meme!",c.width/2,40);
+
+	</script>
+
+</body>
+</html>

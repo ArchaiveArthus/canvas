@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lesson 1 exercise 2</title>
+</head>
+<body>
+	<canvas id="canvasId" width="200" height="200"></canvas>
+	<script type="text/javascript">
+		var c=document.querySelector('#canvasId');
+		var ctx=c.getContext("2d");
+		//the first two parameters are cordinates so x=100 and y=100 then the next two cordinate are width and height respectively
+		ctx.fillStyle="red";//to set the color of the fill
+
+		ctx.fillRect(100,100,100,100);
+
+		//similar in stroke rect only difference is that fill rect are colored and stroke rect are not
+		ctx.strokeRect(50,50,50,50);
+
+		//create a canvas figure with path
+		ctx.beginPath();
+		ctx.moveTo(10,10);//move the pointer where you want to draw
+		ctx.lineTo(50,50);//actually start to draw from the point
+		ctx.lineTo(50,10);
+		ctx.lineTo(10,10);
+		ctx.fill();
+		//ctx.stroke();//or we can use this instead of fillRect
+
+		//similarly
+	
+
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creating canvas shape with traingle inside rect</title>
+</head>
+<body>
+	<canvas id="canvasId" width="200" height="200"></canvas>
+	<script type="text/javascript">
+		var c=document.querySelector('#canvasId');
+		var ctx=c.getContext("2d");
+		ctx.strokeStyle="#bacdef";//remember that the strokeStyle should be added before creating the stroke by strokeRect method otherwise color will not apply
+			ctx.strokeRect(50,50,100,100);
+		ctx.beginPath();
+		ctx.moveTo(75,75);//pointer location
+		ctx.lineTo(125,125);//bottom side of traingle 
+		ctx.lineTo(125,75);
+		ctx.lineTo(75,75);
+		ctx.fill();
+
+		//simply refer to output u will understand
+		//bottom up and starting cordinate 
+
+	</script>
+
+</body>
+</html>
